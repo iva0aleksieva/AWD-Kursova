@@ -1,34 +1,34 @@
 :root {
-    --aq-blue: #53629E;
-    --aq-purple: #473472;
-    --aq-light-bg: #D6F4ED;
+  --aq-blue: #53629e;
+  --aq-purple: #473472;
+  --aq-light-bg: #d6f4ed;
 }
 
 body {
-    background: #D6F4ED;
+  background: #d6f4ed;
 }
 
 /* NAVBAR */
-.navbar-airquest {
-    background-color: var(--aq-blue);
-    padding: 10px 20px;
-}
+/* .navbar-airquest {
+  background-color: var(--aq-blue);
+  padding: 10px 20px;
+} */
 
 .nav-btn {
-    background-color: var(--aq-purple);
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 14px;
-    margin: 0 4px;
+  background-color: var(--aq-purple);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 14px;
+  margin: 0 4px;
 }
 
 .nav-btn:hover {
-    background-color: #3b2c66;
+  background-color: #3b2c66;
 }
 
 .navbar-brand img {
-    height: 55px;
+  height: 55px;
 }
 
 /* HERO SECTION */
@@ -40,54 +40,54 @@ body {
 */
 
 .hero-img {
-    border-radius: 35px;
+  border-radius: 35px;
 }
 
 .hero-logo {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 .hero-title,
 .hero-text {
-    color: var(--aq-blue);
+  color: var(--aq-blue);
 }
 
 .hero-btn {
-    background: var(--aq-purple);
-    color: white;
-    border-radius: 6px;
+  background: var(--aq-purple);
+  color: white;
+  border-radius: 6px;
 }
 
 .hero-btn:hover {
-    background: #3b2c66;
-    color: white;
+  background: #3b2c66;
+  color: white;
 }
 .flight-search {
-    background: #f5f7ff;
-    border-radius: 16px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  background: #f5f7ff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
 .flight-search .form-control,
 .flight-search .form-select {
-    background: #f3f4f6;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
 }
 
 .flight-search .nav-pills .nav-link {
-    border-radius: 999px;
+  border-radius: 999px;
 }
 
 .flight-search .nav-pills .nav-link.active {
-    background: #53629E;    
+  background: #53629e;
 }
 
 .flight-search .nav-pills .nav-link {
-    color: #53629E;
+  color: #53629e;
 }
 
 .flight-search label {
-    font-weight: 500;
-    color: #53629E;
+  font-weight: 500;
+  color: #53629e;
 }

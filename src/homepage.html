@@ -5,44 +5,57 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AirQuestIndex</title>
-  <link href="..\node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
+  <link href="..\node_modules\bootstrap\scss\airquest.css" rel="stylesheet">
+  <link href="" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-airquest navbar-dark">
-    <div class="container-fluid">
-      <div class="flex-grow-1 d-none d-lg-flex align-items-center">
-        <a class="nav-btn nav-link" href="#">Дестинации</a>
+  <nav class="navbar navbar-expand-lg navbar-airquest navbar-dark bg-violet">
+    <div class="container">
+      <div class="col-lg-4">
+        <div class="flex-grow-1 d-none d-lg-flex align-items-center">
+          <a class="nav-btn nav-link" href="#">Дестинации</a>
+        </div>
       </div>
-      <a class="navbar-brand mx-auto" href="#">
-        <img src="assets/LogoAQ.png" alt="AirQuest Logo">
-      </a>
-      <div class="flex-grow-1 d-flex justify-content-end align-items-center">
-        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
+      <div class="col-lg-4 d-flex justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="assets/LogoAQ.png" alt="AirQuest Logo">
+        </a>
+      </div>
+      <div class="col-lg-4 d-flex justify-content-end">
+        <div class="flex-grow-1 d-flex justify-content-end align-items-center">
+          <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse bg-violet" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center align-items-end">
             <li class="nav-item d-lg-none">
-              <a class="nav-btn nav-link text-center px-4 py-2" href="#">Дестинации</a>
+              <a class="btn btn-violet-dark text-end px-4 py-2 d-none d-lg-block" href="#">Дестинации</a>
+              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Дестинации</a>
             </li>
             <li class="nav-item">
-              <a class="nav-btn nav-link px-4 py-2" href="#">За нас</a>
+              <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">За нас</a>
+              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">За нас</a>
             </li>
             <li class="nav-item">
-              <a class="nav-btn nav-link px-4 py-2" href="#">Профил</a>
+              <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">Профил</a>
+              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Профил</a>
             </li>
             <li class="nav-item">
-              <a class="nav-btn nav-link px-4 py-2" href="#">Вход</a>
+              <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">Вход</a>
+              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Вход</a>
             </li>
           </ul>
         </div>
+
       </div>
     </div>
   </nav>
+
   <div class="container py-5 hero-block">
     <div class="row align-items-center">
       <div class="col-12 col-md-6 mb-4 mb-md-0">
