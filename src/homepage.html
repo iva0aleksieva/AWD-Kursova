@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AirQuestIndex</title>
-  <link href="..\node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
+  <link href="..\node_modules\bootstrap\scss\airquest.css" rel="stylesheet">
+  <link href="" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-airquest navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-airquest navbar-dark bg-violet">
     <div class="container-fluid">
       <div class="flex-grow-1 d-none d-lg-flex align-items-center">
         <a class="nav-btn nav-link" href="#">Дестинации</a>
@@ -24,25 +25,27 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item d-lg-none">
-              <a class="nav-btn nav-link text-center px-4 py-2" href="#">Дестинации</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-btn nav-link px-4 py-2" href="#">За нас</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-btn nav-link px-4 py-2" href="#">Профил</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-btn nav-link px-4 py-2" href="#">Вход</a>
-            </li>
-          </ul>
-        </div>
       </div>
+      <div class="collapse navbar-collapse bg-viole" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item d-lg-none">
+            <a class="nav-btn nav-link text-end px-4 py-2" href="#">Дестинации</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-btn nav-link text-end px-4 py-2" href="#">За нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-btn nav-link text-end px-4 py-2" href="#">Профил</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-btn nav-link text-end px-4 py-2" href="#">Вход</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </nav>
+
   <div class="container py-5 hero-block">
     <div class="row align-items-center">
       <div class="col-12 col-md-6 mb-4 mb-md-0">
