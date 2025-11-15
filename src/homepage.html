@@ -30,38 +30,58 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <div class="collapse navbar-collapse bg-violet" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center align-items-end">
+              <li class="nav-item d-lg-none">
+                <a class="btn btn-violet-dark text-end px-4 py-2 d-none d-lg-block" href="#">Дестинации</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">За нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">Профил</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">Вход</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse bg-violet" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center align-items-end">
-            <li class="nav-item d-lg-none">
-              <a class="btn btn-violet-dark text-end px-4 py-2 d-none d-lg-block" href="#">Дестинации</a>
-              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Дестинации</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">За нас</a>
-              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">За нас</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">Профил</a>
-              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Профил</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-violet-dark text-end px-4 py-2 mx-2 d-none d-lg-block" href="#">Вход</a>
-              <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Вход</a>
-            </li>
-          </ul>
-        </div>
-
       </div>
+      <div class="collapse navbar-collapse bg-violet" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center align-items-end">
+          <li class="nav-item d-lg-none">
+            <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Дестинации</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">За нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Профил</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-violet text-end px-4 py-2 d-lg-none" href="#">Вход</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </nav>
 
   <div class="container py-5 hero-block">
-    <div class="row align-items-center">
-      <div class="col-12 col-md-6 mb-4 mb-md-0">
-        <img src="assets/plane.jpg" class="img-fluid hero-img" alt="Plane">
+    <div class="row align-items-center position-relative">
+      <div class="col-12 col-md-6 mb-4 hero">
+        <img src="assets/plane1.jpg" class="img-fluid hero-img" alt="Plane">
+
+        <div class="text-center pt-sm-5 d-none d-sm-block d-md-none position-absolute top-0 z-3">
+          <h2 class="hero-title mb-3">Истории от въздуха</h2>
+          <p class="hero-text mb-4">
+            Две крила. Безкрайни хоризонти. Там, където пистата свършва — започва магията.
+          </p>
+          <a href="#" class="btn hero-btn px-4 py-2">Разгледай оферти</a>
+        </div>
       </div>
-      <div class="col-12 col-md-6 text-center">
+      <div class="col-12 col-md-6 text-center d-sm-none d-md-block">
         <img src="assets/AQLogo.png" class="img-fluid hero-logo mb-3" alt="AirQuest Logo">
         <h2 class="hero-title mb-3">Истории от въздуха</h2>
         <p class="hero-text mb-4">

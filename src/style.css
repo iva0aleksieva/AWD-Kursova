@@ -40,7 +40,13 @@ body {
 */
 
 .hero-img {
+  position: relative;
   border-radius: 35px;
+  z-index: 2;
+}
+
+.hero {
+  position: relative;
 }
 
 .hero-logo {
