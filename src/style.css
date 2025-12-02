@@ -168,3 +168,9 @@ body {
 .hover-info .card-body {
   color: white;
 }
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
