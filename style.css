@@ -1,11 +1,5 @@
-:root {
-  --aq-blue: #53629e;
-  --aq-purple: #473472;
-  --aq-light-bg: #d6f4ed;
-}
-
 body {
-  background: #d6f4ed;
+  background: #1a8a70;
 }
 
 /* NAVBAR */
@@ -169,8 +163,7 @@ body {
   color: white;
 }
 footer {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
