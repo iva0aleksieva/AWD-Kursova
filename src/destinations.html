@@ -73,32 +73,210 @@
         </div>
     </nav>
 
-    <div class="container rounded-4 bg-violet p-3 mt-5">
-        <div class="row">
-            <div class="h3 text-mint">Атракции и събития</div>
+    <div class="container my-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-lg-6  bg-violet text-mint-light rounded-4 shadow">
+                <h3 class="mt-5 ms-4">Открий следващото си приключение <a href="#firstCarousel"
+                        class="text-mint">тук</a>!</h3>
+                <p class="m-4">
+                    Потопи се в свят на вълнуващи преживявания и незабравими емоции с нашите подбрани предложения за
+                    места, заслужаващи посещение и различни дейности, свързани с местната култура. Независимо дали
+                    търсиш адреналин, релакс или забавление за цялото семейство, тук ще
+                    откриеш идеалното преживяване за всеки вкус и повод.
+                </p>
+                <div>
+                    <img src="assets/plane-art.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <div class="rounded-4 overflow-hidden text-center">
+                    <img src="assets/map.png" class="img-fluid" alt="">
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center bg-violet rounded-4">
+            <div class="col-lg-4 col-sm-12 text-center my-3">
+                <h4 class="text-mint">Изберете вашата дестинация:</h4>
+            </div>
+            <div class="col-lg-6 col-sm-12 mx-3">
+                <form>
+                    <div class="input-group my-3">
+                        <select class="form-select">
+                            <option selected>Дестинация</option>
+                            <option value="1" selected>Рим</option>
+                            <option value="2">Амстердам</option>
+                            <option value="3">Барселона</option>
+                            <option value="4">Дъблин</option>
+                            <option value="5">Париж</option>
+                        </select>
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <button class="btn btn-mint-light text-violet" type="submit"><i class="bi bi-search"></i>
+                            Търси</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5" id="firstCarousel">
+
+        <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <h3 class="mb-3 text-violet">Места и събития в Рим</h3>
+
+                <div class="carousel-item active">
+                    <div class="row g-2">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <div class="card">
+                                <img src="https://a0.muscache.com/im/pictures/Mt/MtTemplate-3396551/original/25f627fd-07b8-402a-b7b6-9f858d4e9371.jpeg?im_w=960"
+                                    class="card-img-top" alt="Image 1" style="min-height: 150px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Обиколка с екскурзовод на Колизеума, Форума и Палатинския
+                                        хълм</h6>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+                            <div class="card h-100 w-100">
+                                <img src="https://a0.muscache.com/im/pictures/Mt/MtTemplate-1344083/original/a1fb97d0-6c68-44a8-9a00-63aace685f8d.jpeg?im_w=960"
+                                    class="card-img-top" alt="Image 2" style="min-height: 150px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h6 class="">Открийте забележителностите на Рим с голф количка</h6>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-lg-block">
+                            <div class="card h-100 w-100">
+                                <img src="https://a0.muscache.com/im/pictures/Mt/MtTemplate-592670/original/8f3d67d4-24d5-455b-ab58-382a3534a933.jpeg?im_w=960"
+                                    class="card-img-top" alt="Image 3" style="min-height: 150px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Тъмната страна на Рим - Призраци и легенди</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?1" class="card-img-top" alt="Image 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card One</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?2" class="card-img-top" alt="Image 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Two</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?3" class="card-img-top" alt="Image 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Three</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-3 col-lg-2">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?4" class="card-img-top" alt="Image 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Four</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?5" class="card-img-top" alt="Image 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Five</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?6" class="card-img-top" alt="Image 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Six</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?4" class="card-img-top" alt="Image 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Four</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?5" class="card-img-top" alt="Image 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Five</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 col-lg-2 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://picsum.photos/400/300?6" class="card-img-top" alt="Image 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Six</h5>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
     </div>
 
