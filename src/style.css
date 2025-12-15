@@ -94,15 +94,15 @@ body {
   top: 70%;
   left: 10%;
   z-index: 11;
-  font-size: min(1.7vw, 40px);
+  font-size: 20px;
 }
 
 .offer-text {
-  font-size: min(1.7vw, 26px);
+  font-size: 18px;
 }
 
 .offer-desc {
-  font-size: min(1.2vw, 18px);
+  font-size: 16px;
 }
 
 .overlay::before {
